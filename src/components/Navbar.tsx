@@ -30,7 +30,7 @@ const Navbar = () => {
       path: "/categories",
     },
     {
-      name: "Random",
+      name: "Random joke",
       path: "/random",
     },
   ];
