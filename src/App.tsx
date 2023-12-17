@@ -15,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/categories" element={<CategoryList />} />
+          <Route path="/jokes/:category" element={<Jokes />} />
           <Route path="/random" element={<Jokes />} />
         </Routes>
       </div>
