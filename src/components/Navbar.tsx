@@ -46,7 +46,7 @@ const Navbar = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <p className="ml-2 font-bold">Jokester</p>
+          <Link to='/' className="ml-2 font-bold">Jokester</Link>
         </div>
         <ul
           className={`items-center justify-center w-full md:flex  gap-10 font-medium ${

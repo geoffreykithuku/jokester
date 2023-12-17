@@ -1,6 +1,7 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import { useNavigate } from "react-router-dom";
+import Spinner from "./Spinner";
 
 
 const GET_CATEGORY = gql`
@@ -13,7 +14,7 @@ const CategoryList = () => {
   const navigate = useNavigate();
   const { loading, error, data } = useQuery(GET_CATEGORY);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <Spinner />
   if (error) return <p>Error : {error.message}</p>;
 
   

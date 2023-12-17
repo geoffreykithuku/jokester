@@ -15,7 +15,7 @@ const Home = () => {
           always room for more smiles in your day! 🤣✨
         </p>
         <button
-          className="bg-[#f04242] shadow-lg cursor-pointer hover:bg-[#EA906C] py-2 px-4 rounded-md text-white font-bold text-lg"
+          className="bg-[#F15A24] border border-black border-dotted shadow-lg cursor-pointer hover:bg-[#EA906C] py-2 px-4 rounded-md text-white font-bold text-lg"
           onClick={() => (window.location.href = "/categories")}
         >
           Get Started
