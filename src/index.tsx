@@ -13,7 +13,7 @@ import {
 
 
 const client = new ApolloClient({
-  uri: "https://api.chucknorris.io/jokes/random",
+  uri: "http://localhost:4000/",
   cache: new InMemoryCache(),
 });
 
