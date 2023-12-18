@@ -13,7 +13,7 @@ import {
 
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000/",
+  uri: "https://jokester.onrender.com/",
   cache: new InMemoryCache(),
 });
 
